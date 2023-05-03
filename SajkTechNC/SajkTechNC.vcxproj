@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\IndexBuffer\IndexBuffer.h" />
     <ClInclude Include="src\Shader\Shader.h" />
     <ClInclude Include="src\Window\Window.h" />
     <ClInclude Include="src\VertexBuffer\VertexBuffer.h" />
@@ -28,6 +29,7 @@
     <ClInclude Include="vendor\GL\wglew.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\IndexBuffer\IndexBuffer.cpp" />
     <ClCompile Include="src\Shader\Shader.cpp" />
     <ClCompile Include="src\Appliication.cpp" />
     <ClCompile Include="src\Window\Window.cpp" />
